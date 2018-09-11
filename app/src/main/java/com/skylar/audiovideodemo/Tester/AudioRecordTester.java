@@ -48,7 +48,7 @@ public class AudioRecordTester implements Tester,AudioCapture.AudioCaptureListen
             e.printStackTrace();
         }
         mAudioCapture.setAudioCaptureListener(this);
-        mAudioCapture.startCapture(DEFAULT_SAMPLE_RATE,DEFAULT_CHANNEL, AudioFormat.ENCODING_PCM_16BIT);
+        mAudioCapture.startCapture(DEFAULT_SAMPLE_RATE,AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT);
     }
 
     @Override

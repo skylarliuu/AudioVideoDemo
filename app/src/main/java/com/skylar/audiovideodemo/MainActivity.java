@@ -7,6 +7,7 @@ import android.widget.AdapterView;
 import android.widget.Spinner;
 
 import com.skylar.audiovideodemo.Tester.AudioRecordTester;
+import com.skylar.audiovideodemo.Tester.AudioTrackTester;
 import com.skylar.audiovideodemo.Tester.MediaRecorderTester;
 import com.skylar.audiovideodemo.Tester.Tester;
 
@@ -31,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
                     case 1:
                         mTester = new AudioRecordTester();
                         break;
-
+                    case 2:
+                        mTester = new AudioTrackTester();
                     default:
                             break;
                 }

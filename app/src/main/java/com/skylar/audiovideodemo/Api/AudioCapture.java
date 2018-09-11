@@ -2,6 +2,7 @@ package com.skylar.audiovideodemo.Api;
 
 import android.media.AudioRecord;
 import android.media.MediaRecorder;
+import android.util.Log;
 
 /**
  * Created by Skylar on 2018/9/10
@@ -25,7 +26,7 @@ public class AudioCapture {
         if(minBufferSize == AudioRecord.ERROR_BAD_VALUE){
             return;
         }
-
+        Log.i("AudioCapture","capture data init buffersize success");
         mAudioRecord = new AudioRecord(MediaRecorder.AudioSource.MIC,sampleRateInHz,channelConfig,audioFormat,minBufferSize);
         if(mAudioRecord.getState() == AudioRecord.STATE_UNINITIALIZED){
             return;
@@ -79,12 +80,13 @@ public class AudioCapture {
                 //不断读取AudioRecorder缓冲区的数据
                 int ret = mAudioRecord.read(buffer,0,buffer.length);
                 if(ret == AudioRecord.ERROR_INVALID_OPERATION){
-
+                    Log.i("AudioCapture","capture data ERROR_INVALID_OPERATION");
                 }else if(ret == AudioRecord.ERROR_BAD_VALUE){
-
+                    Log.i("AudioCapture","capture data ERROR_BAD_VALUE");
                 }else{
                     //数据传入回调
                     if(mAudioCaptureListener != null){
+                        Log.i("AudioCapture","capture data success :"+buffer.length);
                         mAudioCaptureListener.captureData(buffer);
                     }
                 }

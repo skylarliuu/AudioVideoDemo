@@ -3,6 +3,7 @@
     <array name="audioType">
         <item>MediaRecorder</item>
         <item>AudioRecorder</item>
+        <item>AudioTrack</item>
     </array>
 
 </resources>
