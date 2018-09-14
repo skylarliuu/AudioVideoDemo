@@ -1,4 +1,4 @@
-package com.skylar.audiovideodemo.Wav;
+package com.skylar.audiovideodemo.AudioDemo.Wav;
 /*
  *  COPYRIGHT NOTICE
  *  Copyright (C) 2016, Jhuster <lujun.hust@gmail.com>

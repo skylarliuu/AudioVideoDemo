@@ -1,17 +1,13 @@
-package com.skylar.audiovideodemo.Tester;
+package com.skylar.audiovideodemo.AudioDemo.Tester;
 
 import android.media.AudioFormat;
-import android.media.AudioRecord;
-import android.media.MediaRecorder;
 import android.os.Environment;
 
-import com.skylar.audiovideodemo.Api.AudioCapture;
-import com.skylar.audiovideodemo.Wav.WavFileHeader;
-import com.skylar.audiovideodemo.Wav.WavFileWriter;
+import com.skylar.audiovideodemo.AudioDemo.Api.AudioCapture;
+import com.skylar.audiovideodemo.AudioDemo.Wav.WavFileWriter;
 
 import java.io.File;
 import java.io.IOException;
-import java.sql.SQLData;
 
 /**
  * Created by Skylar on 2018/9/8

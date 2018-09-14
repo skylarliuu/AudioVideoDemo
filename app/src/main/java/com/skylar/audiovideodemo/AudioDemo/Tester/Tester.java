@@ -1,4 +1,4 @@
-package com.skylar.audiovideodemo.Tester;
+package com.skylar.audiovideodemo.AudioDemo.Tester;
 
 /**
  * Created by Skylar on 2018/9/8

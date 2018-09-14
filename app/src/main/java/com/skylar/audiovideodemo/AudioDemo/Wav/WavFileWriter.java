@@ -1,4 +1,4 @@
-package com.skylar.audiovideodemo.Wav;
+package com.skylar.audiovideodemo.AudioDemo.Wav;
 
 /**
  * Created by Skylar on 2018/9/8

@@ -1,4 +1,4 @@
-package com.skylar.audiovideodemo.Tester;
+package com.skylar.audiovideodemo.AudioDemo.Tester;
 
 import android.media.MediaRecorder;
 import android.os.Environment;

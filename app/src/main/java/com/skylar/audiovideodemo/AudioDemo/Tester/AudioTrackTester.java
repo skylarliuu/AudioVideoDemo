@@ -1,12 +1,11 @@
-package com.skylar.audiovideodemo.Tester;
+package com.skylar.audiovideodemo.AudioDemo.Tester;
 
 import android.media.AudioFormat;
 import android.media.AudioManager;
-import android.media.MediaRecorder;
 import android.os.Environment;
 
-import com.skylar.audiovideodemo.Api.AudioPlay;
-import com.skylar.audiovideodemo.Wav.WavFileReader;
+import com.skylar.audiovideodemo.AudioDemo.Api.AudioPlay;
+import com.skylar.audiovideodemo.AudioDemo.Wav.WavFileReader;
 
 import java.io.File;
 import java.io.IOException;

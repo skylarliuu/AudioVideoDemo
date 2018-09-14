@@ -1,6 +1,5 @@
-package com.skylar.audiovideodemo.Api;
+package com.skylar.audiovideodemo.AudioDemo.Api;
 
-import android.media.AudioManager;
 import android.media.AudioTrack;
 
 /**
